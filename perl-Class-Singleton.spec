@@ -1,6 +1,6 @@
 Name:           perl-Class-Singleton
 Version:        1.4
-Release:        13.1%{?dist}
+Release:        14%{?dist}
 Summary:        Implementation of a "Singleton" class
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-14
+- Mass rebuild 2013-12-27
+
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 1.4-13.1
 - Rebuild for perl 5.16
 
